@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import mobiler.abbosbek.alquranjava.R;
-import mobiler.abbosbek.alquranjava.activity.SurahDetailActivity;
+import mobiler.abbosbek.alquranjava.SurahDetailActivity;
 import mobiler.abbosbek.alquranjava.model.SurahDetail;
 
 public class SurahDetailAdapter  extends RecyclerView.Adapter<SurahDetailAdapter.ViewHolder> {
@@ -20,8 +20,10 @@ public class SurahDetailAdapter  extends RecyclerView.Adapter<SurahDetailAdapter
     private Context context;
     private List<SurahDetail> list;
 
+
     public SurahDetailAdapter(SurahDetailActivity surahDetailActivity, List<SurahDetail> list) {
     }
+
 
 
     @NonNull

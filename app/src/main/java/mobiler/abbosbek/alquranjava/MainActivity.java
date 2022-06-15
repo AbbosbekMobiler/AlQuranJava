@@ -1,20 +1,16 @@
 package mobiler.abbosbek.alquranjava;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mobiler.abbosbek.alquranjava.activity.SurahDetailActivity;
 import mobiler.abbosbek.alquranjava.adapter.SurahAdapter;
 import mobiler.abbosbek.alquranjava.common.Common;
 import mobiler.abbosbek.alquranjava.listener.SurahListener;

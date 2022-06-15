@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E1DFDF"
-    tools:context=".activity.SurahDetailActivity">
+    android:background="#E3DEDE"
+    tools:context=".SurahDetailActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
@@ -89,4 +89,5 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_alignParentBottom="true"
         android:layout_margin="8dp"/>
+
 </RelativeLayout>

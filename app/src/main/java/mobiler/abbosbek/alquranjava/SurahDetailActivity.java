@@ -1,4 +1,4 @@
-package mobiler.abbosbek.alquranjava.activity;
+package mobiler.abbosbek.alquranjava;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.LifecycleOwner;
@@ -11,8 +11,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import mobiler.abbosbek.alquranjava.R;
 import mobiler.abbosbek.alquranjava.adapter.SurahDetailAdapter;
 import mobiler.abbosbek.alquranjava.common.Common;
 import mobiler.abbosbek.alquranjava.model.SurahDetail;
@@ -71,7 +69,7 @@ public class SurahDetailActivity extends AppCompatActivity {
                         surahDetailResponse.getList().get(i).getArabic_text(),
                         surahDetailResponse.getList().get(i).getTranslation(),
                         surahDetailResponse.getList().get(i).getFootnotes()
-                        ));
+                ));
             }
 
             if (list.size() != 0){
