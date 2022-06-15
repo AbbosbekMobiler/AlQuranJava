@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/drawable/bg_circle.xml" value="0.131" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/drawable/bg_search.xml" value="0.131" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/drawable/ic_bg_row.xml" value="0.12" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/drawable/ic_search.xml" value="0.131" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/drawable/ic_setting.xml" value="0.131" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/layout/activity_surah_detail.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/layout/surah_detail_layout.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/AlQuranJava/app/src/main/res/layout/surah_layout.xml" value="0.1" />
       </map>
     </option>
@@ -14,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="AlQuran_Java.app" />
+      </set>
+    </option>
   </component>
 </project>

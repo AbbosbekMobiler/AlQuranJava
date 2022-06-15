@@ -15,4 +15,14 @@ public class Api {
         }
         return instance;
     }
+
+    public static Retrofit getInstance(){
+        if (instance != null){
+            instance = null;
+        }
+        instance = new Retrofit.Builder().baseUrl("https://quranenc.com/api/v1/translation/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        return instance;
+    }
 }
